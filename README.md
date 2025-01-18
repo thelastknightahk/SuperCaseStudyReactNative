@@ -1,6 +1,5 @@
                                                 SuperCaseStudy
 
-
 Overview
    SuperCaseStudy is a React Native application designed to demonstrate a leaderboard UI with advanced features, such as sorting, filtering, and searching for users. It uses Redux for state management and integrates libraries for enhanced user interactions, such as haptic feedback.
 
@@ -25,11 +24,7 @@ Features
 
 --------------------------------------------------------------------------------------
 
-
-
 File Structure
-
-
 
 SuperCaseStudy/
 ├── android/                # Android-specific configuration
@@ -54,13 +49,9 @@ SuperCaseStudy/
 ├── App.tsx                 # Main app entry point
 └── package.json            # Project dependencies and scripts
 
-
 --------------------------------------------------------------------------------
 
-
-
 Core Libraries
-
 
    React Native: For building cross-platform mobile applications.
    Redux Toolkit: Simplifies state management and provides tools for handling complex state logic.
@@ -68,9 +59,7 @@ Core Libraries
    React Native Haptic Feedback: Adds tactile feedback for user interactions.
    Jest: For unit testing the application.
 
-
 -------------------------------------------------------------------------------------
-
 
 Key Functionalities
 1. Leaderboard Display
@@ -96,25 +85,15 @@ Key Functionalities
 
 -------------------------------------------------------------------------
 
-
 Testing
-
 
 The application uses Jest for unit tests.
 Key functionalities such as reducers, actions, and components are thoroughly tested.
 
-
-
 ---------------------------------------------------------------------
-
 
 Contributions
 
 Feel free to contribute! Fork the repository, make changes, and submit a pull request. 🎉
 
-feel free to contact via email [ aunghtetwho@gmail.com ] 
-
-
-
-
-
+Feel free to contact via email [ aunghtetwho@gmail.com ] 

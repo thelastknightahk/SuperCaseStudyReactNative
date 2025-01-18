@@ -24,6 +24,7 @@ const App = () => {
     setIsInfoDialogVisible,
     selectedUser,
     searchedUser,
+    fuzzySearchResults
   } = useUserLogic();
 
   return (
@@ -45,8 +46,11 @@ const App = () => {
         users={getDisplayedUsers()}
         searchedUser={searchedUser}
         listHeader={
-          showLowest ? 'Lowest Ranked Users' : 'Top 10 Users by Bananas'
-        }
+          fuzzySearchResults.length > 0
+            ? 'Fuzzy Search Results'
+            : showLowest
+            ? 'Lowest Ranked Users'
+            : 'Top 10 Users by Bananas'}
         onItemPress={handleItemPress}
       />
       <InfoDialog
@@ -68,7 +72,7 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 8,
+    backgroundColor:'white',
   },
 });
 

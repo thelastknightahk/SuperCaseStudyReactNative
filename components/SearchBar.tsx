@@ -27,6 +27,7 @@ const SearchBar = ({
       <TextInput
         style={styles.input}
         placeholder="Enter user name"
+        placeholderTextColor="grey" 
         value={searchText}
         onChangeText={setSearchText}
         onSubmitEditing={() => {
@@ -68,6 +69,9 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     marginBottom: 16,
+    backgroundColor:'white',
+    paddingHorizontal: 8 ,
+    paddingTop: 8
   },
 
   icon: {
@@ -88,6 +92,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     alignItems: 'center',
     marginRight: 8,
+    color:'grey', 
+    
   },
   input: {
     flex: 1, // Allow the input to take available horizontal space
